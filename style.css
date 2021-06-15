@@ -1,0 +1,42 @@
+.border{
+    border: solid 2px red;
+}
+
+.header{
+    background-color: lawngreen;
+    display: flex;
+    justify-content: center;
+}
+
+.subheading{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    background-color: lime;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.item{
+    border: darkred;
+}
+
+p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+img{
+    border: solid 3px gold;
+    border-radius: 25%;
+    
+}
+
+.item:hover{
+    opacity: 0.5;
+}
